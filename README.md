@@ -1,3 +1,5 @@
-This project for the better of medical images which are suffering from intensity inhomogeneity.
-First i segment the image using Fuzzy C Mean clustering algorithm, which the first and the important step of the bias field estimation.
-Then separately remove the bias field of the segmented image and finally adding both inhomogeneity free image to get original bias free image.
+This project is for enhanching the medical images which are suffering from intensity inhomogeneity.
+
+* First we segment the image using Fuzzy C Mean clustering algorithm, which is first and the important step for the bias field estimation.
+* Separately remove the bias field of each segmented image.
+* Finally added all inhomogeneity free images to get correct and enhanched image.
